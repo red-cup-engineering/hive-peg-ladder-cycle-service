@@ -4,8 +4,7 @@
   "description": "Composes observe-hive-internal-market, derive-peg-ladder, apply-peg-ladder, and reconcile-peg-ladder-fills into one Hive internal-market peg-ladder cycle, with a kill switch that cancels every resting order and refuses instead of deriving/applying when the observer refuses, the haircut moves beyond a declared bound, or the account's liquid balance falls below its reserve.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/computer-systems-engineering-services-section.git",
-    "directory": "services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/internal-market-services-section/services/hive-peg-ladder-cycle-service"
+    "url": "git+https://github.com/red-cup-engineering/hive-peg-ladder-cycle-service.git"
   },
   "type": "module",
   "private": false,
