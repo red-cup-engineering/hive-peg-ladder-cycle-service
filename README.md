@@ -1,5 +1,12 @@
 # @red-cup-engineering/hive-peg-ladder-cycle-service
 
+<!-- 561-group-standards:badges:start -->
+[![Red Cup Engineering](https://img.shields.io/badge/561%20Group-Red%20Cup%20Engineering-c0392b)](https://github.com/red-cup-engineering)
+[![License: MIT](https://img.shields.io/badge/license-MIT-c0392b)](LICENSE)
+[![Indigenous data: CARE](https://img.shields.io/badge/Indigenous%20data-CARE-4b6f44)](https://github.com/red-cup-engineering/.github/blob/main/GOVERNANCE.md)
+[![Tips welcome](https://img.shields.io/badge/tips-welcome-d4a017)](https://github.com/561-group/.github/blob/main/TIPS.md)
+<!-- 561-group-standards:badges:end -->
+
 Composes `observe-hive-internal-market`, `derive-peg-ladder`, `apply-peg-ladder`, and `reconcile-peg-ladder-fills` into one Hive internal-market peg-ladder cycle, with a kill switch that cancels every resting order and refuses instead of deriving/applying when the observer refuses, the haircut moves beyond a declared bound, or the account's liquid balance falls below its reserve.
 
 ## Operation
